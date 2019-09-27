@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title> Tip calculator</title>
+    
 </head>
 <body>
     <div id="container">
@@ -15,7 +16,7 @@
             <form>
                 <label>
                     <p>How much was your bill?</p>
-                    $ <input type="text " id="billAmount" placeholder="Bill Amount"></input>
+                    $ <input type="text " id="billAmount" placeholder="Bill Amount">
                 </label>
 
                 <label>
@@ -34,7 +35,10 @@
                     <input type="text" id="numberOfPeople" placeholder="Number of people">people
                 </label>
 
-                <button type="button" id="calculate">calculate!</button>
+                <button type="button" id="calculate" onclick="getValue();">calculate!</button>
+            
+          
+             
             </form>
         
         </div>
@@ -47,5 +51,6 @@
             </div>
     </div>
     
+    <script type="text/javascript" src="tip.js"></script>
 </body>
 </html> 
