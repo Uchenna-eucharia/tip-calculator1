@@ -1,14 +1,13 @@
 
 
 function getValue() {
-    var billAmount =(document.getElementById("billAmount").value);
+    let billAmount =(document.getElementById("billAmount").value);
     
     if(isNaN(billAmount)){
-        alert("An Error Occured");
+        alert("An Error Occurred");
     }
 
     else{
-        document.getElementById("billAmount").value;
         alert(billAmount);
     }
     
