@@ -57,7 +57,9 @@ button{
     color: white;
     font-size: 18px;
     padding: 18px 18px;
-    width: 100%;   
+    width: 100%;
+    font-weight: bold;
+    font-size:25px;   
 }
 
 button:hover {

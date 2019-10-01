@@ -1,22 +1,24 @@
 
 
 function getValue() {
-    let billAmount =(document.getElementById("billAmount").value);
+    let billAmount =parseInt(document.getElementById("billAmount").value) // To allow only numbers as input
     
-    if(isNaN(billAmount)){
-        alert("An Error Occurred");
-    }
 
-    else{
-        alert(billAmount);
-    }
-    
-    
+    let services =(document.getElementById("services").value); // calculates the bill and service
+    let tipAmount= billAmount * services;
+        alert(tipAmount);
+
+
 }
 
+ 
+    
+    
+    
+
+
     
  
  
-
 
 
