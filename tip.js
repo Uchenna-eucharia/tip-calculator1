@@ -6,7 +6,7 @@ function getValue() {
 
     let services =(document.getElementById("services").value); // calculates the bill and service
     let tipAmount= billAmount * services;
-        alert(tipAmount);
+        modalShow(tipAmount);
 
 
 }
