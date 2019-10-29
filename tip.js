@@ -32,7 +32,7 @@ function CalculateTip() {
     //shows the modal
     $("#exampleModal").modal("show");
   }
-  else if (numberOfPeople === "" || numberOfPeople < 1) { 
+  else if (numberOfPeople === "" || numberOfPeople < 1 ) { 
      numberOfPeople === 1
       
 
